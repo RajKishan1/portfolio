@@ -3,7 +3,7 @@ interface prop {
   text: string;
 }
 const Option = ({ text }: prop) => {
-  return <div>{text}</div>;
+  return <div className="text-lg py-2 rounded-xl hover:bg-white hover:shadow-3xl px-10 ">{text}</div>;
 };
 const Menu = () => {
   return (
