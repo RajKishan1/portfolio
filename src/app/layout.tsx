@@ -30,7 +30,7 @@ export default function RootLayout({
       >
         <div className="flex flex-row">
           <Sidebar />
-          <div className="w-[85%]">fwf {children}</div>
+          <div className="w-[85%] bg-white">{children}</div>
         </div>
       </body>
     </html>
