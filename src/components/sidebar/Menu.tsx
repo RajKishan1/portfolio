@@ -8,7 +8,7 @@ import { MdContactMail } from "react-icons/md";
 interface prop {
   text: string;
 }
-const Option = ({ text }: prop) => {
+export const Option = ({ text }: prop) => {
   return (
     <div className="text-md text-neutral-500 py-2  hover:shadow-3xl    ">
       {text}

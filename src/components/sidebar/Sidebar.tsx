@@ -1,6 +1,7 @@
 import React from "react";
 import Menu from "./Menu";
 import { IoIosArrowForward } from "react-icons/io";
+import Socials from "./Socials";
 
 const Sidebar = () => {
   return (
@@ -17,12 +18,7 @@ const Sidebar = () => {
 
       <Menu />
 
-      <div>
-        <h5>Socials</h5>
-        <p>Twitter</p>
-        <p>LinkedIn</p>
-        <p>YouTube</p>
-      </div>
+      <Socials />
       <div>
         <button className="bg-neutral-900 rounded-full font-semibold text-white px-4 py-3 text-sm flex items-center gap-2">
           Read Resume
