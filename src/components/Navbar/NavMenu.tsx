@@ -7,10 +7,10 @@ import { FaUserCircle } from "react-icons/fa";
 import { IoSunny } from "react-icons/io5";
 
 const Class =
-  "flex gap-1.5 items-center rounded-full hover:border-neutral-600 hover:bg-neutral-800 px-3 py-2 ";
+  "flex gap-1.5 items-center rounded-full hover:border-neutral-600 hover:bg-neutral-800 px-3 py-0 ";
 const NavMenu = () => {
   return (
-    <div className="bg-black rounded-full px-2  flex gap-3 items-center">
+    <div className="bg-black rounded-full px-2 py-1.5 flex gap-3 items-center border-[1px] border-neutral-800 text-sm">
       <div className="rounded-full hover:bg-neutral-700 p-2.5">
         <AiFillHome />
       </div>
