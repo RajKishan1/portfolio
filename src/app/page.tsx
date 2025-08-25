@@ -1,3 +1,4 @@
+import ContactSection from "@/components/Home/ContactSection";
 import HeroSection from "@/components/Home/HeroSection";
 import HomeProjectSection from "@/components/Home/HomeProjectSection";
 import LatestBlog from "@/components/Home/LatestBlog";
@@ -10,6 +11,7 @@ const page = () => {
       <HomeProjectSection />
       <LatestBlog />
       <HomeProjectSection />
+      <ContactSection />
     </div>
   );
 };
