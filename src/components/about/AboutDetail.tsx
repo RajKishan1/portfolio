@@ -7,6 +7,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import WorkExperience from "./WorkExperience";
 import Studies from "./Studies";
+import TechnicalSkill from "./TechnicalSkill";
 
 const Class =
   "px-3 py-1 rounded-full text-sm flex items-center border border-neutral-600 gap-2 hover:bg-neutral-700/20";
@@ -51,6 +52,7 @@ const AboutDetail = () => {
       </div>
       <WorkExperience />
       <Studies />
+      <TechnicalSkill />
     </div>
   );
 };
