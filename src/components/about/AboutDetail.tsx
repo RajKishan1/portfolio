@@ -1,0 +1,58 @@
+import React from "react";
+import { IoCalendar } from "react-icons/io5";
+import { IoIosArrowForward } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { IoIosMail } from "react-icons/io";
+import WorkExperience from "./WorkExperience";
+import Studies from "./Studies";
+
+const Class =
+  "px-3 py-1 rounded-full text-sm flex items-center border border-neutral-600 gap-2 hover:bg-neutral-700/20";
+const AboutDetail = () => {
+  return (
+    <div className="w-full  flex-1 ">
+      <div className="flex items-center gap-3 px-3 py-2 rounded-full bg-blue-400/20 border border-blue-500 ">
+        <IoCalendar />
+        Schedule a call
+        <IoIosArrowForward />
+      </div>
+      <div className="flex flex-col gap-4 mt-4">
+        <h1 className="font-black text-6xl ">Raj Kishan Verma</h1>
+        <h2 className="text-2xl ">Frontend Developer</h2>
+        <div className="flex items-center gap-3">
+          <div className={Class}>
+            <FaGithub />
+            Github
+          </div>
+          <div className={Class}>
+            <BsLinkedin />
+            LinkedIn
+          </div>
+          <div className={Class}>
+            <FaSquareXTwitter />
+            Twitter/X
+          </div>
+          <div className={Class}>
+            <IoIosMail />
+            Email
+          </div>
+        </div>
+        <p className="w-3/4 text-left">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+          cupiditate quam iste accusantium quos nesciunt laborum beatae
+          dignissimos provident perferendis vero veritatis, illum saepe
+          praesentium. Odio exercitationem eos fugit, saepe fugiat non, odit,
+          eveniet voluptatum obcaecati dicta quam excepturi voluptatibus
+          voluptate. Reprehenderit perferendis alias fugiat iste exercitationem
+          quas, labore hic?
+        </p>
+      </div>
+      <WorkExperience />
+      <Studies />
+    </div>
+  );
+};
+
+export default AboutDetail;
