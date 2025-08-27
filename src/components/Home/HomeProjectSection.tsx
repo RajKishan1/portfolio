@@ -8,7 +8,7 @@ const HomeProjectSection = () => {
         <div></div>
         <img src="/me.png" alt="" />
       </div>
-      <div className="flex justify-around px-5">
+      <div className="flex justify-around px-5 mt-7">
         <div>
           <h1 className="text-2xl font-bold text-left">
             Building Once UI, a Customizable Design System

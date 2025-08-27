@@ -9,7 +9,7 @@ const ThemeToggle = () => {
   const [mode, setMode] = useState("dark");
   return (
     <div
-      className="rounded-full p-1 hover:bg-neutral-700 bg-transparent"
+      className="rounded-full  hover:bg-neutral-700 bg-transparent text-sm"
       onClick={() => {
         {
           mode === "dark"
