@@ -36,7 +36,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {" "}
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 relative">
             <Navbar /> {children} <Footer />
           </div>
         </ThemeProvider>

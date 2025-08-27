@@ -15,11 +15,11 @@ const HomeProjectSection = () => {
           </h1>
         </div>
         <div className="flex flex-col gap-2  ">
-          <p className="text-sm text-neutral-500 text-left">
+          <p className="text-sm leading-[18px] font-normal text-[#b2b2b2] text-left">
             Development of a flexible and highly customizable design system
             using Next.js for front-end and Figma for design collaboration.
           </p>
-          <div className="text-xs text-blue-500 font-medium flex items-center gap-1.5">
+          <div className="text-[14px] leading-[18px] text-blue-500 font-normal flex items-center gap-1.5">
             Read Case Study
             <FaArrowRight />
           </div>

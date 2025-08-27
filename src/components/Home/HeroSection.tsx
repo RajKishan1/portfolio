@@ -15,7 +15,7 @@ const HeroSection = () => {
         <p className="text-sm text-[#6FD5E3]">Featured Work</p>
       </a>
       <h1
-        className={`${geistSans.className} text-[64px] max-w-3xl font-semibold text-white text-center leading-[68px] tracking-[-2.5px] font-strong `}
+        className={`${geistSans.className} text-[64px] max-w-3xl font-semibold text-black text-center leading-[68px] tracking-[-2.5px] font-strong dark:text-white`}
       >
         Building bridges between design and code
       </h1>
