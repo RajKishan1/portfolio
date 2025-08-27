@@ -1,13 +1,17 @@
+import React from "react";
 import ContactSection from "@/components/Home/ContactSection";
 import HeroSection from "@/components/Home/HeroSection";
 import HomeProjectSection from "@/components/Home/HomeProjectSection";
 import LatestBlog from "@/components/Home/LatestBlog";
-import React from "react";
+
+import { BlurFade } from "@/components/magicui/blur-fade";
 
 const page = () => {
   return (
     <div className="px-72 flex flex-col gap-6">
-      <HeroSection />
+      <BlurFade>
+        <HeroSection />
+      </BlurFade>
       <HomeProjectSection />
       <LatestBlog />
       <HomeProjectSection />

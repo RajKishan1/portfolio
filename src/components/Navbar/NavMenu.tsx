@@ -5,6 +5,7 @@ import { LuNotebookText } from "react-icons/lu";
 import { GrGallery } from "react-icons/gr";
 import { FaUserCircle } from "react-icons/fa";
 import { IoSunny } from "react-icons/io5";
+import ThemeToggle from "./ThemeToggle";
 
 const Class =
   "flex gap-1.5 items-center rounded-full hover:border-neutral-600 hover:bg-neutral-800 px-3 py-2 ";
@@ -34,7 +35,8 @@ const NavMenu = () => {
         </a>
       </div>
       <div className="rounded-full hover:bg-neutral-700 p-2.5">
-        <IoSunny />
+        {/* <IoSunny /> */}
+        <ThemeToggle />
       </div>
     </div>
   );
