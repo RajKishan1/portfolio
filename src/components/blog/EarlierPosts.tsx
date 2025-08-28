@@ -15,7 +15,7 @@ const EarlierPostCard = ({ Title }: prop) => {
 const EarlierPosts = () => {
   return (
     <div className="w-full">
-      <h1>Earlier Posts</h1>
+      <h1 className="text-2xl font-semibold mt-4 mb-10">Earlier Posts</h1>
       <div className="grid gap-2 grid-cols-2 ">
         <EarlierPostCard Title="Using custom components in markdown" />
         <EarlierPostCard Title="Using custom components in markdown" />

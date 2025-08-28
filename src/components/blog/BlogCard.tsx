@@ -3,10 +3,13 @@ interface prop {
   BlogTitle: string;
 }
 export const NamePlate = () => {
+  const d = new Date();
+  const date = d.toLocaleDateString();
   return (
-    <div className="flex gap-3 items-center">
-      <img src="/me.png" alt="me" className="size-6 rounded-full" /> <h1 className="text-sm">Raj Kishan Verma</h1>
-      <p>date</p>
+    <div className="w-3/5 flex gap-3 items-center justify-between">
+      <img src="/me.png" alt="me" className="size-6 rounded-full" />{" "}
+      <h1 className="text-sm">Raj Kishan Verma</h1>
+      <p className="text-xs">{date}</p>
     </div>
   );
 };
