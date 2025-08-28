@@ -26,9 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.className}  antialiased`}
-      >
+      <body className={`${geistSans.className}  antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -37,6 +35,7 @@ export default function RootLayout({
         >
           {" "}
           <div className="flex flex-col gap-5 relative">
+            <div className="absolute top-0 left-0 h-[125vh] w-full -z-10 bg-[radial-gradient(circle_at_top,_#0A1D2E,_#020202)]"></div>
             <Navbar /> {children} <Footer />
           </div>
         </ThemeProvider>

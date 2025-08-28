@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactSection = () => {
   return (
-    <div className="py-10 px-20 rounded-xl border border-neutral-800 flex flex-col items-center justify-center gap-2.5 my-6">
+    <div className="py-10 px-20 bg-zinc-950 rounded-xl border border-neutral-800 flex flex-col items-center justify-center gap-2.5 my-6">
       <h1 className="text-3xl font-bold ">Subscribe to Selene's Newsletter</h1>
       <p className="text-neutral-500">My weekly newsletter about creativity and engineering</p>
       <form action="" className="flex flex-col gap-3 mt-5">

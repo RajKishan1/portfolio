@@ -13,7 +13,7 @@ const Module = ({ title, subtitle }: prop) => {
 };
 const Studies = () => {
   return (
-    <div className="mt-20">
+    <div id="studies" className="mt-20 ">
       <h1 className="text-4xl text-white font-bold">Studies</h1>
       <Module
         title="Jan Nayak Chandrasekhar University"

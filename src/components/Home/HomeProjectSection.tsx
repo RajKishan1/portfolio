@@ -6,7 +6,7 @@ const HomeProjectSection = () => {
     <div className="flex flex-col gap-3 py-5">
       <div className="w-full rounded-2xl overflow-hidden border border-neutral-600 ">
         <div></div>
-        <img src="/me.png" alt="" />
+        <img src="/me.png" alt="" className="max-h-[450px]"/>
       </div>
       <div className="flex justify-around px-5 mt-7">
         <div>

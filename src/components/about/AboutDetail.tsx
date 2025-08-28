@@ -8,19 +8,22 @@ import { IoIosMail } from "react-icons/io";
 import WorkExperience from "./WorkExperience";
 import Studies from "./Studies";
 import TechnicalSkill from "./TechnicalSkill";
-
+import { Mogra } from "next/font/google";
+const charm = Mogra({
+  weight: "400",
+});
 const Class =
   "px-3 py-1 rounded-full text-sm flex items-center border border-neutral-600 gap-2 hover:bg-neutral-700/20";
 const AboutDetail = () => {
   return (
-    <div className="w-full  flex-1 ">
-      <div className="flex items-center gap-3 px-3 py-2 rounded-full bg-blue-400/20 border border-blue-500 ">
+    <div id="intro" className="w-full  flex-1 flex flex-col gap-5 items-left">
+      <div className="w-52 flex items-center gap-3 px-3 py-2 rounded-full bg-blue-400/20 hover:bg-blue-400/50 border border-blue-500 ">
         <IoCalendar />
         Schedule a call
         <IoIosArrowForward />
       </div>
       <div className="flex flex-col gap-4 mt-4">
-        <h1 className="font-black text-6xl ">Raj Kishan Verma</h1>
+        <h1 className={` font-black text-6xl `}>Raj Kishan Verma</h1>
         <h2 className="text-2xl ">Frontend Developer</h2>
         <div className="flex items-center gap-3">
           <div className={Class}>
