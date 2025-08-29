@@ -3,7 +3,7 @@ import { NamePlate } from "./BlogCard";
 interface prop {
   Title: string;
 }
-const EarlierPostCard = ({ Title }: prop) => {
+export const EarlierPostCard = ({ Title }: prop) => {
   return (
     <div className="rounded-xl hover:bg-neutral-800 py-6 px-3 w-[90%] pl-8 my-3">
       <NamePlate />

@@ -1,5 +1,6 @@
 import React from "react";
 import BlogCard from "./BlogCard";
+import EarlierPosts, { EarlierPostCard } from "../blog/EarlierPosts";
 
 const LatestBlog = () => {
   return (
@@ -11,8 +12,10 @@ const LatestBlog = () => {
           Latest from the Blog
         </h2>
       </div>
-      <BlogCard BlogTitle="Quick start with magic portfolio" />
-      <BlogCard BlogTitle="Quick start with magic portfolio" />
+      <EarlierPostCard Title="this is a blog" />
+      <EarlierPostCard Title="this is a blog" />
+      {/* <BlogCard BlogTitle="Quick start with magic portfolio" />
+      <BlogCard BlogTitle="Quick start with magic portfolio" /> */}
       <div></div>
     </div>
   );

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="w-full px-72 py-4 flex items-center justify-between">
       <div className="text-sm text-neutral-500">
-        ©2025 / <span className="text-neutral-400">Raj Kishan Verma</span>
+        ©2025 / <span className="text-neutral-300">Raj Kishan Verma</span> / Made with ❤️
       </div>
       <div className="flex items-center gap-4 text-2xl">
         <a href="https://github.com/RajKishan1" target="_blank">
