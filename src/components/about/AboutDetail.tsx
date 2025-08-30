@@ -8,10 +8,7 @@ import { IoIosMail } from "react-icons/io";
 import WorkExperience from "./WorkExperience";
 import Studies from "./Studies";
 import TechnicalSkill from "./TechnicalSkill";
-import { Mogra } from "next/font/google";
-const charm = Mogra({
-  weight: "400",
-});
+
 const Class =
   "px-3 py-1 rounded-full text-sm flex items-center border border-neutral-600 gap-2 hover:bg-neutral-700/20";
 const AboutDetail = () => {
