@@ -6,21 +6,21 @@ interface prop {
 const ImgDiv = ({ height, src }: prop) => {
   return (
     <div className={`rounded-lg overflow-hidden ${height} w-full`}>
-      <img src={src} className={`object-contain`} alt="" />
+      <img src={src} className={`object-cover w-full h-full`} alt="" />
     </div>
   );
 };
 const page = () => {
   return (
-    <div className="px-60 flex flex-col gap-10">
+    <div className="px-2 md:px-30 lg:60 flex flex-col gap-10 ">
       <div className="flex flex-col md:flex-row gap-2">
-        <div className="flex flex-col  gap-2 w-1/2">
+        <div className="flex flex-col  gap-2 w-full md:w-1/2">
           <ImgDiv src="/me.png" height="h-[300px]" />
           <ImgDiv src="/me.png" height="h-[500px]" />
           <ImgDiv src="/me.png" height="h-[300px]" />
           <ImgDiv src="/me.png" height="h-[500px]" />
         </div>
-        <div className="w-1/2 flex flex-col  gap-2">
+        <div className="w-full md:w-1/2 flex flex-col  gap-2">
           <ImgDiv src="/me.png" height="h-[500px]" />
           <ImgDiv src="/me.png" height="h-[300px]" />
           <ImgDiv src="/me.png" height="h-[500px]" />

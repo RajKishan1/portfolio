@@ -9,7 +9,7 @@ interface prop {
   text: string;
 }
 const Title = ({ text }: prop) => {
-  return <a className=" text-lg">{text}</a>;
+  return <a className="text-sm xl:text-lg">{text}</a>;
 };
 const page = () => {
   const Class =
@@ -34,11 +34,11 @@ const page = () => {
           </a>
         </div>
       </div>
-      <div className="w-full md:w-1/5 md:sticky top-30 pt-1 md:pt-10">
+      <div className="w-full md:w-1/4 lg:w-1/5 md:sticky top-30 pt-1 md:pt-10 ">
         <div className="flex  flex-col gap-3 items-center">
           <img
             src="/me.png"
-            className="size-40 rounded-full border border-neutral-500 "
+            className="size-28 md:size-36 lg:size-40 rounded-full border border-neutral-500 "
             alt="my pic"
           />
           <span className="flex items-center gap-2">
