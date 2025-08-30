@@ -16,34 +16,41 @@ const Class =
   "px-3 py-1 rounded-full text-sm flex items-center border border-neutral-600 gap-2 hover:bg-neutral-700/20";
 const AboutDetail = () => {
   return (
-    <div id="intro" className="w-full  flex-1 flex flex-col gap-5 items-left">
-      <div className="w-52 flex items-center gap-3 px-3 py-2 rounded-full bg-blue-400/20 hover:bg-blue-400/50 border border-blue-500 ">
+    <div
+      id="intro"
+      className="w-full  flex-1 flex flex-col gap-5 items-center md:items-left mt-10"
+    >
+      <div className="w-44 md:w-52 flex items-center gap-3 px-3 py-2 rounded-full bg-blue-400/20 hover:bg-blue-400/50 border border-blue-500 ">
         <IoCalendar />
-        Schedule a call
+        <p className="text-xs md:text-sm"> Schedule a call</p>
         <IoIosArrowForward />
       </div>
-      <div className="flex flex-col gap-4 mt-4">
-        <h1 className={` font-black text-6xl `}>Raj Kishan Verma</h1>
-        <h2 className="text-2xl ">Frontend Developer</h2>
-        <div className="flex items-center gap-3">
+      <div className="flex flex-col gap-4 mt-4 mx-auto">
+        <h1
+          className={`font-semibold md:font-black text-[38px] md:text-6xl text-center`}
+        >
+          Raj Kishan Verma
+        </h1>
+        <h2 className="text-2xl text-center">Frontend Developer</h2>
+        <div className="flex items-center gap-3 mx-auto ">
           <div className={Class}>
             <FaGithub />
-            Github
+            <p className="hidden md:block">Github</p>
           </div>
           <div className={Class}>
             <BsLinkedin />
-            LinkedIn
+            <p className="hidden md:block">LinkedIn</p>
           </div>
           <div className={Class}>
             <FaSquareXTwitter />
-            Twitter/X
+            <p className="hidden md:block">Twitter/X</p>
           </div>
           <div className={Class}>
             <IoIosMail />
-            Email
+            <p className="hidden md:block">Email</p>
           </div>
         </div>
-        <p className="w-3/4 text-left">
+        <p className="w-3/4 text-center md:text-left mx-auto">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
           cupiditate quam iste accusantium quos nesciunt laborum beatae
           dignissimos provident perferendis vero veritatis, illum saepe

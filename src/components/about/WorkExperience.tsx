@@ -2,7 +2,7 @@ import React from "react";
 
 const WorkExperience = () => {
   return (
-    <div id="experience" className="flex flex-col gap-5 mt-20">
+    <div id="experience" className="flex flex-col gap-5 mt-20 px-2 md:px-0">
       <h1 className="text-4xl font-bold text-white">Work Experience</h1>
       <div className="flex justify-between items-center pr-6">
         <div className="flex flex-col gap-2 ">
@@ -23,7 +23,7 @@ const WorkExperience = () => {
           </li>
         </ul>
       </div>
-      <img src="/me.png" className="h-32 w-56 " alt="" />
+      <img src="/me.png" className="h-32 w-full md:w-56 " alt="" />
     </div>
   );
 };

@@ -13,7 +13,7 @@ const ImgDiv = ({ height, src }: prop) => {
 const page = () => {
   return (
     <div className="px-60 flex flex-col gap-10">
-      <div className="flex gap-2">
+      <div className="flex flex-col md:flex-row gap-2">
         <div className="flex flex-col  gap-2 w-1/2">
           <ImgDiv src="/me.png" height="h-[300px]" />
           <ImgDiv src="/me.png" height="h-[500px]" />

@@ -15,8 +15,8 @@ const page = () => {
   const Class =
     "flex gap-2.5 items-center hover:pl-1 transition duration-500 text-neutral-400 hover:text-neutral-200";
   return (
-    <div className="relative flex min-h-[80vh]">
-      <div className="sticky top-30 w-1/5 h-[70vh] flex items-center pl-3">
+    <div className="relative flex flex-col md:flex-row min-h-[80vh]">
+      <div className="hidden md:sticky top-30 w-1/5 h-[70vh] md:flex items-center pl-3">
         <div className="flex flex-col gap-4">
           <a href="#intro" className={Class}>
             <LuFileUser /> <Title text="Introduction" />
@@ -34,7 +34,7 @@ const page = () => {
           </a>
         </div>
       </div>
-      <div className="w-1/5 sticky top-30 pt-10">
+      <div className="w-full md:w-1/5 md:sticky top-30 pt-1 md:pt-10">
         <div className="flex  flex-col gap-3 items-center">
           <img
             src="/me.png"

@@ -17,7 +17,7 @@ const Studies = () => {
       <h1 className="text-4xl text-white font-bold">Studies</h1>
       <Module
         title="Jan Nayak Chandrasekhar University"
-        subtitle="Bachelor of Computer Application"
+        subtitle="Bachelor of Computer Application (2025)"
       />
       <Module title="RK Mission School " subtitle="Intermediate" />
     </div>

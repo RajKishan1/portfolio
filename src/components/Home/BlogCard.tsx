@@ -7,7 +7,7 @@ interface prop {
 const BlogCard = ({ BlogTitle, flexDirection }: prop) => {
   return (
     <div
-      className={` p-2 rounded-2xl hover:bg-neutral-800 bg-transparent flex ${flexDirection}  gap-4 mx-2 transition`}
+      className={` p-2 rounded-2xl hover:bg-neutral-800 bg-transparent flex flex-col md-${flexDirection}  gap-4 mx-2 transition`}
     >
       <img
         src="/me.png"
