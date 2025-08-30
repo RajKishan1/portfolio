@@ -8,8 +8,11 @@ export const NamePlate = ({ width }: prop) => {
   const date = d.toLocaleDateString();
   return (
     <div className={`w-${width} flex gap-3 items-center justify-between`}>
-      <img src="/me.png" alt="me" className="size-6 rounded-full" />{" "}
-      <h1 className="text-sm">Raj Kishan </h1>
+      <span className="flex gap-2 items-center">
+        {" "}
+        <img src="/me.png" alt="me" className="size-6 rounded-full" />{" "}
+        <h1 className="text-sm">Raj Kishan </h1>
+      </span>
       <p className="text-xs">{date}</p>
     </div>
   );
