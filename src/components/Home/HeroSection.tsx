@@ -7,7 +7,7 @@ const geistSans = Geist({
 
 const HeroSection = () => {
   return (
-    <div className="px-5 md:px-0 max-w-4xl mx-auto flex flex-col items-center gap-8 pt-4 md:pt-12 pb-16">
+    <div className="px-3 md:px-0 max-w-4xl mx-auto flex flex-col items-center gap-8 pt-4 md:pt-12 pb-16">
       <a
         href="/work"
         className="py-1.5 px-4 border rounded-full border-[#6FD5E3]/85 bg-blue-300/15"
@@ -15,7 +15,7 @@ const HeroSection = () => {
         <p className="text-xs md:text-sm text-[#6FD5E3]">Featured Work</p>
       </a>
       <h1
-        className={`${geistSans.className} text-[37px] md:text-[64px] max-w-3xl font-semibold text-black text-center leading-[45px] md:leading-[68px] tracking-[1.5px] md:tracking-[-2.5px] font-strong dark:text-white`}
+        className={`${geistSans.className} text-[35px] md:text-[64px] max-w-3xl font-semibold  text-center leading-[45px] md:leading-[68px] tracking-[1.5px] md:tracking-[-2.5px] `}
       >
         Building bridges between design and code
       </h1>

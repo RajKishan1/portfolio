@@ -28,7 +28,9 @@ const AboutDetail = () => {
         >
           Raj Kishan Verma
         </h1>
-        <h2 className="text-2xl text-center md:text-left">Frontend Developer</h2>
+        <h2 className="text-2xl text-center md:text-left">
+          Frontend Developer
+        </h2>
         <div className="flex items-center gap-3 mx-auto md:mx-0">
           <div className={Class}>
             <FaGithub />
@@ -47,12 +49,10 @@ const AboutDetail = () => {
             <p className="hidden md:block">Email</p>
           </div>
         </div>
-        <p className="w-3/4 text-center md:text-left ">
+        <p className="w-5/6 md:w-3/4 text-center md:text-left mx-auto ">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
           cupiditate quam iste accusantium quos nesciunt laborum beatae
           dignissimos provident perferendis vero veritatis, illum saepe
-          praesentium. Odio exercitationem eos fugit, saepe fugiat non, odit,
-          eveniet voluptatum obcaecati dicta quam excepturi voluptatibus
           voluptate. Reprehenderit perferendis alias fugiat iste exercitationem
           quas, labore hic?
         </p>

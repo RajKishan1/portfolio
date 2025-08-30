@@ -14,7 +14,7 @@ const Module = ({ title, subtitle }: prop) => {
 const Studies = () => {
   return (
     <div id="studies" className="mt-20 ">
-      <h1 className="text-4xl text-white font-bold">Studies</h1>
+      <h1 className="text-4xl font-bold">Studies</h1>
       <Module
         title="Jan Nayak Chandrasekhar University"
         subtitle="Bachelor of Computer Application (2025)"

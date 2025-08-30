@@ -7,7 +7,7 @@ interface prop {
 }
 const LatestBlogCard = ({ Title }: prop) => {
   return (
-    <div className="rounded-xl bg-neutral-900 hover:bg-neutral-800 py-5 px-4 md:px-10 w-full md:w-1/2 pl-4 md:pl-8 my-3 flex flex-col  gap-2 shrink-0">
+    <div className="rounded-xl bg-neutral-900 hover:bg-neutral-800 py-5 px-4 md:px-10 w-full md:w-1/2 pl-4 md:pl-8 my-1 flex flex-col  gap-2 shrink-0">
       <NamePlate width="w-4/5" />
       <h1 className="text-xl font-semibold w-5/6 my-4 ">{Title}</h1>
       <p className="text-sm text-neutral-400">My Blog</p>
@@ -26,7 +26,7 @@ const LatestBlog = () => {
           <br /> the Blog
         </h2>
       </div>
-      <div className="flex flex-col md:flex-row gap-3  w-4/5 ">
+      <div className="flex flex-col md:flex-row gap-3 w-5/6 md:w-4/5 mt-5 md:mt-0">
         {" "}
         <LatestBlogCard Title="this is a blog this is a blog" />
         <LatestBlogCard Title="this is a blog this is a blog" />

@@ -41,7 +41,7 @@ const page = () => {
             className="size-28 md:size-36 lg:size-40 rounded-full border border-neutral-500 "
             alt="my pic"
           />
-          <span className="flex items-center gap-2">
+          <span className="flex items-center gap-2 ">
             <FaEarthAsia />
             India / Asia
           </span>

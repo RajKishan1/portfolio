@@ -35,7 +35,7 @@ export default function RootLayout({
         >
           {" "}
           <div className="flex flex-col gap-5 relative">
-            <div className="absolute top-0 left-0 h-full w-full -z-10 bg-[radial-gradient(circle_at_top,_#0A1D2E,_#0a0a0a,_#000)]"></div>
+            <div className="absolute top-0 left-0 h-full w-full -z-10 dark:bg-[radial-gradient(circle_at_top,_#0A1D2E,_#0a0a0a,_#000)] bg-[radial-gradient(circle_at_top,_#CBF6FE,_#E5FAFF,_#fff)]"></div>
             <Navbar /> {children} <Footer />
           </div>
         </ThemeProvider>
