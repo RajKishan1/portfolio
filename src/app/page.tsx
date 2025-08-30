@@ -7,8 +7,7 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 
 const page = () => {
   return (
-    <div className=" px-72 flex flex-col gap-6 ">
-      
+    <div className="px-2  lg:px-72 flex flex-col gap-6 ">
       <BlurFade direction="right" duration={2}>
         <HeroSection />
         <HomeProjectSection />

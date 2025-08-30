@@ -17,7 +17,7 @@ const LatestBlogCard = ({ Title }: prop) => {
 
 const LatestBlog = () => {
   return (
-    <div className="relative  w-full p-8 py-13 my-20 flex items-center justify-between">
+    <div className="relative  w-full p-8 py-13 my-20 flex flex-col md:flex-col items-center justify-between">
       <hr className="w-3/4  bg-neutral-700 absolute top-0 left-0" />
       <hr className="w-3/4 bg-neutral-700 absolute bottom-0 right-0" />
       <div className="w-1/3 ">
@@ -26,7 +26,7 @@ const LatestBlog = () => {
           <br /> the Blog
         </h2>
       </div>
-      <div className="flex gap-3  w-4/5 ">
+      <div className="flex flex-col md:flex-row gap-3  w-4/5 ">
         {" "}
         <LatestBlogCard Title="this is a blog this is a blog" />
         <LatestBlogCard Title="this is a blog this is a blog" />
