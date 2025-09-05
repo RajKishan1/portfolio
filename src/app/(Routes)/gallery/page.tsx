@@ -17,14 +17,14 @@ const page = () => {
         <div className="flex flex-col  gap-2 w-full md:w-1/2">
           <ImgDiv src="/fort.jpeg" height="h-[300px]" />
           <ImgDiv src="/me.png" height="h-[500px]" />
-          <ImgDiv src="/me.png" height="h-[300px]" />
-          <ImgDiv src="/me.png" height="h-[500px]" />
+          <ImgDiv src="/namo.jpg" height="h-[300px]" />
+          <ImgDiv src="/ocean.jpg" height="h-[600px]" />
         </div>
         <div className="w-full md:w-1/2 flex flex-col  gap-2">
-          <ImgDiv src="/me.png" height="h-[500px]" />
-          <ImgDiv src="/me.png" height="h-[300px]" />
-          <ImgDiv src="/me.png" height="h-[500px]" />
-          <ImgDiv src="/me.png" height="h-[300px]" />
+          <ImgDiv src="/canon.jpg" height="h-[600px]" />
+          <ImgDiv src="/cloud.jpg" height="h-[300px]" />
+          <ImgDiv src="/stage.jpg" height="h-[500px]" />
+          <ImgDiv src="/kol.jpg" height="h-[300px]" />
         </div>
       </div>
       <div className="">

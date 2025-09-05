@@ -1,6 +1,4 @@
 import React from "react";
-import BlogCard from "./BlogCard";
-import EarlierPosts, { EarlierPostCard } from "../blog/EarlierPosts";
 import { NamePlate } from "../blog/BlogCard";
 interface prop {
   Title: string;
@@ -17,13 +15,13 @@ const LatestBlogCard = ({ Title }: prop) => {
 
 const LatestBlog = () => {
   return (
-    <div className="relative  w-full p-2 md:p-8 py-10 md:py-13 my-8 md:my-20 flex flex-col md:flex-row items-center justify-center md:justify-between">
+    <div className="relative  w-full  py-10 md:py-13 my-8 md:my-20 flex flex-col lg:flex-row items-center justify-center md:justify-between">
       <hr className="w-3/4  bg-neutral-700 absolute top-0 left-0" />
       <hr className="w-3/4 bg-neutral-700 absolute bottom-0 right-0" />
       <div className="w-full md:w-1/3 flex items-center justify-center ">
-        <h2 className="w-full text-[32px] leading-[40px] font-semibold text-center md:text-left">
-          Latest from
-          <br /> the Blog
+        <h2 className="w-full text-[32px] leading-[40px] font-semibold text-center md:text-left mb-4">
+          Latest from <br className="hidden xl:block" />
+          the Blog
         </h2>
       </div>
       <div className="flex flex-col md:flex-row gap-3 w-5/6 md:w-4/5 mt-5 md:mt-0">
