@@ -10,14 +10,14 @@ const Class =
   "flex gap-1.5 items-center rounded-full hover:border-neutral-400 hover:bg-neutral-300 dark:hover:bg-neutral-800 px-3 py-1 hover:scale-110 transition duration-500";
 const NavMenu = () => {
   return (
-    <div className="bg-neutral-50 dark:bg-black  rounded-full px-1 py-0.5 flex gap-3 items-center border-[1px] border-neutral-200 dark:border-neutral-800 text-sm mx-auto text-black dark:text-white ">
+    <div className="bg-transparent backdrop-blur-lg  rounded-full px-1 py-0.5 flex gap-3 items-center border-[1px] border-blue-300 dark:border-neutral-600 text-sm mx-auto text-black dark:text-white ">
       <a
         href="/"
         className="rounded-full hover:bg-neutral-300 dark:hover:bg-neutral-800 p-2.5"
       >
         <AiFillHome />
       </a>
-      <div className="flex px-4 border-r border-l border-neutral-500">
+      <div className="flex px-2 border-r border-l border-neutral-500">
         {" "}
         <a href="/about" className={Class}>
           <FaUserCircle />

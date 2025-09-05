@@ -7,7 +7,7 @@ const geistSans = Geist({
 
 const HeroSection = () => {
   return (
-    <div className="px-3 md:px-0 max-w-4xl mx-auto flex flex-col items-center gap-8 pt-4 md:pt-12 pb-16">
+    <div className="max-w-4xl mx-auto flex flex-col items-center gap-8 pt-4 md:pt-12 pb-16">
       <a
         href="/work"
         className="py-1.5 px-4 border rounded-full border-[#6FD5E3]/85 bg-blue-300/15"
