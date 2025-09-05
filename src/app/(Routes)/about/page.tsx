@@ -13,9 +13,9 @@ const Title = ({ text }: prop) => {
 };
 const page = () => {
   const Class =
-    "flex gap-2.5 items-center hover:pl-1 transition duration-500 text-neutral-400 hover:text-neutral-200";
+    "flex gap-2.5 items-center hover:pl-1 transition duration-500 text-neutral-800 dark:text-neutral-400 hover:text-neutral-200";
   return (
-    <div className="relative flex flex-col md:flex-row min-h-[80vh]">
+    <div className="relative flex flex-col md:flex-row min-h-[80vh] px-4">
       <div className="hidden md:sticky top-30 w-1/5 h-[70vh] md:flex items-center pl-3">
         <div className="flex flex-col gap-4">
           <a href="#intro" className={Class}>

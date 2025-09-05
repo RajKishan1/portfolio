@@ -10,15 +10,19 @@ const Module = ({ time, title, subtitle }: prop) => {
       <span className="flex justify-between items-center">
         {" "}
         <h5 className="text-xl font-bold ">{title}</h5>
-        <p className="text-[16px] text-neutral-400">{time}</p>
+        <p className="text-[16px] text-neutral-800 dark:text-neutral-400">
+          {time}
+        </p>
       </span>
-      <p className="text-[16px] text-neutral-400 font-normal">{subtitle}</p>
+      <p className="text-[16px] text-neutral-800 dark:text-neutral-400 font-normal">
+        {subtitle}
+      </p>
     </div>
   );
 };
 const Studies = () => {
   return (
-    <div id="studies" className="mt-20 w-full md:pr-6 lg:pr-12">
+    <div id="studies" className="my-20 w-full md:pr-6 lg:pr-12">
       <h1 className="text-4xl font-bold">Studies</h1>
       <Module
         time="2025-Present"
