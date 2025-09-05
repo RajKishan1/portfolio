@@ -14,7 +14,7 @@ const ContactSection = () => {
         <span className="w-full flex flex-col md:flex-row gap-2 ">
           <input
             type="text"
-            className="flex-1 border border-neutral-800 px-4 py-2 rounded-xl"
+            className=" flex-1 border border-neutral-800 px-4 py-2 rounded-xl"
             placeholder="Your Name"
           />
           <input

@@ -15,12 +15,12 @@ const HeroSection = () => {
         <p className="text-xs md:text-sm text-[#6FD5E3]">Featured Work</p>
       </a>
       <h1
-        className={`${geistSans.className} text-[35px] md:text-[64px] max-w-3xl font-semibold  text-center leading-[45px] md:leading-[68px] tracking-[1.5px] md:tracking-[-2.5px] `}
+        className={`${geistSans.className} w-full text-[35px] md:text-[64px] max-w-3xl font-semibold  text-center leading-[40px] md:leading-[68px] tracking-[1.5px] md:tracking-[-2.5px] `}
       >
         Building bridges between design and code
       </h1>
       <h4
-        className={`text-[20px] md:text-2xl leading-[26.3px] md:leading-[32px]  max-w-3xl font-normal text-[#b2b2b2] text-center ${geistSans.className}`}
+        className={`text-[20px] md:text-2xl leading-[25px] md:leading-[32px]  max-w-3xl font-normal text-[#b2b2b2] text-center -mt-6 md:-mt-0 ${geistSans.className}`}
       >
         I'm Raj Kishan, a Frontend Engineer , I craft intuitive user
         experiences. After hours, I build my own projects.
