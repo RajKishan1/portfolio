@@ -17,9 +17,9 @@ const AboutDetail = () => {
       id="intro"
       className="w-full  flex-1 flex flex-col gap-5 items-center md:items-start mt-10"
     >
-      <div className="w-44 md:w-48 xl:w-52 flex items-center gap-3 px-3 py-2 rounded-full bg-blue-400/20 hover:bg-blue-400/50 border border-blue-500 ">
-        <IoCalendar />
-        <p className="text-xs md:text-sm"> Schedule a call</p>
+      <div className="w-44 md:w-48 xl:w-52 flex items-center gap-3 px-3 py-2 rounded-full bg-white/10 hover:bg-blue-400/50 border border-blue-400 ">
+        <div className="size-3 bg-green-500 rounded-3xl"></div>
+        <p className="text-xs md:text-sm">Available for Work</p>
         <IoIosArrowForward />
       </div>
       <div className="flex flex-col gap-4 mt-4 mx-auto">
@@ -49,7 +49,7 @@ const AboutDetail = () => {
             <p className="hidden md:block">Email</p>
           </div>
         </div>
-        <p className="w-5/6 md:w-3/4 text-center md:text-left mx-auto ">
+        <p className="w-5/6 md:w-3/4 text-center md:text-left max-sm:mx-auto ">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
           cupiditate quam iste accusantium quos nesciunt laborum beatae
           dignissimos provident perferendis vero veritatis, illum saepe
