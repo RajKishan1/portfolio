@@ -7,7 +7,7 @@ export const NamePlate = ({ width }: prop) => {
   const d = new Date();
   const date = d.toLocaleDateString();
   return (
-    <div className={`w-${width} flex gap-3 items-center justify-between`}>
+    <div className={`w-${width} flex gap-3 items-center justify-between `}>
       <span className="flex gap-2 items-center">
         {" "}
         <img src="/me.png" alt="me" className="size-6 rounded-full" />{" "}

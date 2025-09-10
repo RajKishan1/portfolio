@@ -16,7 +16,7 @@ const page = () => {
     "flex gap-2.5 items-center hover:pl-1 transition duration-500 text-neutral-800 dark:text-neutral-400 hover:text-neutral-200";
   return (
     <div className="relative flex flex-col md:flex-row min-h-[80vh] px-4">
-      <div className="hidden md:sticky top-30 w-1/5 h-[70vh] md:flex items-center pl-3">
+      <div className="hidden md:sticky top-30 w-1/5 xl:w-1/6 h-[70vh] md:flex items-center pl-3">
         <div className="flex flex-col gap-4">
           <a href="#intro" className={Class}>
             <LuFileUser /> <Title text="Introduction" />
@@ -34,11 +34,11 @@ const page = () => {
           </a>
         </div>
       </div>
-      <div className="w-full md:w-1/4 lg:w-1/5 md:sticky top-30 pt-1 md:pt-10 ">
+      <div className="w-full md:w-1/4 lg:w-1/5 md:sticky top-30 pt-1 md:pt-10 lg:border-l border-stone-300 dark:border-stone-700">
         <div className="flex  flex-col gap-3 items-center">
           <img
             src="/me.png"
-            className="size-28 md:size-36 lg:size-40 rounded-full border border-neutral-500 "
+            className="size-28 md:size-36 lg:size-40 xl:size-48 rounded-full border border-neutral-500 "
             alt="my pic"
           />
           <span className="flex items-center gap-2 ">
@@ -46,10 +46,10 @@ const page = () => {
             India / Asia
           </span>
           <span className="flex gap-2">
-            <div className="py-1 px-2.5 rounded-lg border-[1px] border-neutral-700 text-neutral-400 text-sm ">
+            <div className="py-1 px-2.5 rounded-lg border-[1px] border-neutral-700  text-sm ">
               English
             </div>
-            <div className="py-1 px-2.5 rounded-lg border-[1px] border-neutral-700 text-neutral-400 text-sm ">
+            <div className="py-1 px-2.5 rounded-lg border-[1px] border-neutral-700  text-sm ">
               Hindi
             </div>
           </span>
