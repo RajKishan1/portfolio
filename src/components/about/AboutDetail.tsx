@@ -17,7 +17,7 @@ const AboutDetail = () => {
       className="w-full  flex-1 flex flex-col gap-5 items-center md:items-start mt-10"
     >
       <div className="w-40 xl:w-44 flex items-center gap-3 px-3 py-2 rounded-full bg-white/10 hover:bg-blue-400/50 border border-blue-400 ">
-        <div className="size-3 bg-green-500 rounded-3xl"></div>
+        <div className="size-3 bg-green-400 rounded-3xl"></div>
         <p className="text-xs md:text-sm">Available for Work</p>
       </div>
       <div className="flex flex-col gap-5  mt-4 mx-auto">
@@ -47,7 +47,7 @@ const AboutDetail = () => {
             <p className="hidden md:block">Email</p>
           </div>
         </div>
-        <p className="w-full md:w-3/4 text-center md:text-left max-sm:mx-auto ">
+        <p className="w-full md:w-3/4 text-center md:text-left max-sm:mx-auto dark:text-stone-400">
           Lorem ipsum dolor sit amet adipisicing elit. Corporis cupiditate quam
           iste accusantium quos nesciunt laborum beatae dignissimos provident
           perferendis vero veritatis, illum saepe voluptate. Reprehenderit

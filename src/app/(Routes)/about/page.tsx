@@ -34,11 +34,11 @@ const page = () => {
           </a>
         </div>
       </div>
-      <div className="w-full md:w-1/4 lg:w-1/5 md:sticky top-30 pt-1 md:pt-10 lg:border-l border-stone-300 dark:border-stone-700">
+      <div className="w-full md:w-1/4 lg:w-1/5 md:sticky top-30 pt-1 md:pt-10 lg:border-l border-stone-300 dark:border-stone-800">
         <div className="flex  flex-col gap-3 items-center">
           <img
             src="/me.png"
-            className="size-28 md:size-36 lg:size-40 xl:size-48 rounded-full border border-neutral-500 "
+            className="size-34 md:size-36 lg:size-40 xl:size-48 rounded-full border border-neutral-500 "
             alt="my pic"
           />
           <span className="flex items-center gap-2 ">

@@ -6,15 +6,15 @@ interface prop {
 }
 const Module = ({ time, title, subtitle }: prop) => {
   return (
-    <div className="w-full flex flex-col gap-1 my-6">
+    <div className="w-full flex flex-col gap-0.5 my-6">
       <span className="flex justify-between items-center">
         {" "}
-        <h5 className="text-xl font-bold ">{title}</h5>
-        <p className="text-[16px] text-neutral-800 dark:text-neutral-400">
+        <h5 className="max-sm:text-[18px] text-[22px] font-semibold ">{title}</h5>
+        <p className="max-sm:text-[14px] text-neutral-800 dark:text-neutral-400">
           {time}
         </p>
       </span>
-      <p className="text-[16px] text-neutral-800 dark:text-neutral-400 font-normal">
+      <p className="text-[16px] md:text-[18px] text-neutral-800 dark:text-neutral-400 font-normal">
         {subtitle}
       </p>
     </div>
@@ -34,7 +34,7 @@ const Studies = () => {
         title="JNC University "
         subtitle="Bachelor of Computer Application "
       />
-      <Module title="RK Mission School" subtitle="Intermediate" />
+      <Module title="RK Mission School" subtitle="Intermediate"/>
     </div>
   );
 };

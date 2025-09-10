@@ -10,12 +10,12 @@ const WorkExperience = () => {
       <div className="flex justify-between items-center w-full">
         <div className="flex flex-col gap-1 ">
           <h3 className="text-xl font-bold">DataVidhya</h3>
-          <p className="text-blue-400">Full Stack Intern</p>
+          <p className="text-blue-400 text-sm">Full Stack Intern</p>
         </div>
-        <div className="text-neutral-800 dark:text-neutral-400">April-June 2025</div>
+        <div className="text-neutral-800 dark:text-neutral-400 text-sm">April-June 2025</div>
       </div>
       <div className="text-neutral-800 dark:text-neutral-400 w-full">
-        <ul className="w-full">
+        <ul className="w-full text-sm">
           <li>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
             aliquid?
