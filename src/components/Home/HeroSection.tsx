@@ -24,7 +24,7 @@ const HeroSection = () => {
       <h4
         className={`text-[16px] md:text-2xl leading-[24px] md:leading-[30px]  max-w-3xl font-normal text-stone-800 dark:text-[#b2b2b2]  text-center -mt-6 md:-mt-0 ${geistSans.className}`}
       >
-        I'm Raj Kishan, a Frontend Engineer , I craft intuitive user
+        I'm Raj Kishan, a Frontend Engineer. I craft intuitive user
         experiences. After hours, I build my own projects.
       </h4>
       <div className="flex items-center bg-white/5 justify-center gap-2.5 border-[1px] border-neutral-800 rounded-full  px-2 py-1.5 hover:bg-[#6fd5e3]/50 dark:hover:bg-white/20   transition">

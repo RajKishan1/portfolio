@@ -47,16 +47,29 @@ const AboutDetail = () => {
             <p className="hidden md:block">Email</p>
           </div>
         </div>
-        <p className="w-full md:w-3/4 text-center md:text-left max-sm:mx-auto dark:text-stone-400">
-          Lorem ipsum dolor sit amet adipisicing elit. Corporis cupiditate quam
-          iste accusantium quos nesciunt laborum beatae dignissimos provident
-          perferendis vero veritatis, illum saepe voluptate. Reprehenderit
-          perferendis alias fugiat iste exercitationem quas, labore hic?
+        <p className="w-full md:w-3/4 text-center md:text-left max-sm:mx-auto dark:text-stone-300">
+          Raj Kishan is a India-based software engineering student and
+          full-stack developer with a passion for transforming ideas into
+          functional, user-friendly digital experiences. His work spans web
+          applications, UI/UX design, and the integration of design with modern
+          technology.
         </p>
       </div>
       <WorkExperience />
       <Studies />
       <TechnicalSkill />
+      <div
+        id="github"
+        className="flex flex-col gap-5 mt-20 w-full max-sm:pr-0 md:pr-6 lg:pr-12 "
+      >
+        <h1 className="text-4xl font-bold ">Github</h1>
+        <a href="" className="">
+          <img
+            src="https://ghchart.rshah.org/RajKishan1"
+            className="pr-0 lg:pr-20 w-full"
+          />
+        </a>
+      </div>
     </div>
   );
 };
