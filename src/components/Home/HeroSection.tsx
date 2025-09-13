@@ -27,11 +27,11 @@ const HeroSection = () => {
         I'm Raj Kishan, a Frontend Engineer. I craft intuitive user
         experiences. After hours, I build my own projects.
       </h4>
-      <div className="flex items-center bg-white/5 justify-center gap-2.5 border-[1px] border-neutral-800 rounded-full  px-2 py-1.5 hover:bg-[#6fd5e3]/50 dark:hover:bg-white/20   transition">
+      <a href="/about" className="flex items-center bg-white/5 justify-center gap-2.5 border-[1px] border-neutral-800 rounded-full  px-2 py-1.5 hover:bg-[#6fd5e3]/50 dark:hover:bg-white/20   transition">
         <img className="rounded-full size-6" src="/me.png" alt="" />
         <p className="text-xs md:text-sm pr-0.5">About - Raj Kishan</p>
         {/* <p className="hidden hover:flex">qweqwe</p> */}
-      </div>
+      </a>
     </div>
   );
 };
