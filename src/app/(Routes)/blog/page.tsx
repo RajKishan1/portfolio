@@ -5,7 +5,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="px-2 md:px-72 h-auto flex flex-col ">
-      <div className="">
+      {/* <div className="">
         <h1 className="text-2xl font-semibold mb-10">
           Writing about design and tech...
         </h1>
@@ -21,7 +21,7 @@ const page = () => {
           <BlogCard BlogTitle="wertwertwertwertwer" flexDirection="flex-col" />
         </div>
       </div>
-      <EarlierPosts />
+      <EarlierPosts /> */}
       <img src="/making.webp" className="size-96 mx-auto" alt="" />
     </div>
   );
