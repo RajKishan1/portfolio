@@ -7,13 +7,23 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 
 const page = () => {
   return (
-    <div className="px-4 md:px-32 lg:px-52 xl:px-64 2xl:px-72 flex flex-col gap-6 ">
+    <div className="px-4 md:px-32 lg:px-52 xl:px-64 2xl:px-96 flex flex-col gap-6">
       <BlurFade direction="right" duration={2}>
         <HeroSection />
-        <HomeProjectSection image="/me.png" projectDetail="" projectTitle="" />
+        <HomeProjectSection
+          liveLink=""
+          image="/me.png"
+          projectDetail=""
+          projectTitle=""
+        />
       </BlurFade>
       <LatestBlog />
-      <HomeProjectSection image="/me.png" projectDetail="" projectTitle="" />
+      <HomeProjectSection
+        liveLink="https://demodesign-gsk2.vercel.app/"
+        image="/dvhomepage.png"
+        projectDetail=""
+        projectTitle=""
+      />
       <ContactSection />
     </div>
   );

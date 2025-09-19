@@ -12,21 +12,28 @@ const WorkExperience = () => {
           <h3 className="text-xl font-bold">DataVidhya</h3>
           <p className="text-blue-400 text-sm">Full Stack Intern</p>
         </div>
-        <div className="text-neutral-800 dark:text-neutral-400 text-sm">April-June 2025</div>
+        <div className="text-neutral-800 dark:text-neutral-400 text-sm">
+          April-June 2025
+        </div>
       </div>
       <div className="text-neutral-800 dark:text-neutral-400 w-full">
-        <ul className="w-full text-sm">
-          <li>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
-            aliquid?
+        <ul className="w-full text-sm md:text-[16px] list-disc list-inside ">
+          <li className="mb-1">
+            Developed and deployed a full-stack web application for Data
+            Vidhya’s online data science courses, improving course accessibility
+            for students.
           </li>
           <li>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-            delectus.
+            Worked with modern web technologies (React, Next.js, and Postgres)
+            to deliver a responsive and user-friendly learning platform.
           </li>
         </ul>
       </div>
-      <img src="/me.png" className="h-32 w-full md:w-56 " alt="" />
+      <img
+        src="/dvhomepage.png"
+        className="h-32 w-full md:w-56 rounded-lg border border-stone-300"
+        alt="Platform Screenshot"
+      />
     </div>
   );
 };
