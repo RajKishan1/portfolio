@@ -1,24 +1,18 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { FiSun } from "react-icons/fi";
 import { FaMoon } from "react-icons/fa";
 import { useTheme } from "next-themes";
 
 const ThemeToggle = () => {
-  const { setTheme } = useTheme();
-  const [mode, setMode] = useState("dark");
+  const { theme, setTheme } = useTheme();
+
   return (
     <div
-      className="rounded-full   bg-transparent text-sm"
-      onClick={() => {
-        {
-          mode === "dark"
-            ? (setTheme("light"), setMode("light"))
-            : (setTheme("dark"), setMode("dark"));
-        }
-      }}
+      className="rounded-full bg-transparent text-sm cursor-pointer"
+      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      {mode === "dark" ? <FiSun /> : <FaMoon />}
+      {theme === "dark" ? <FiSun /> : <FaMoon />}
     </div>
   );
 };

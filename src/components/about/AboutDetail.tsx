@@ -42,10 +42,16 @@ const AboutDetail = () => {
             <FaSquareXTwitter className="text-[22px] md:text-[18px]" />
             <p className="hidden md:block">Twitter/X</p>
           </div>
-          <div className={Class}>
-            <LuMail className="text-[22px] md:text-[18px]" />
+
+          <a
+            className={Class}
+            target="_blank"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=rajkishanvrma@gmail.com"
+          >
+            {" "}
+            <LuMail className="text-[22px] md:text-[18px]" />{" "}
             <p className="hidden md:block">Email</p>
-          </div>
+          </a>
         </div>
         <p className="w-full md:w-3/4 text-center md:text-left max-sm:mx-auto dark:text-stone-300">
           Raj Kishan is a India-based software engineering student and
