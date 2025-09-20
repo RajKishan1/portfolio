@@ -82,12 +82,21 @@ const AboutDetail = () => {
       >
         <h1 className="text-4xl font-bold ">Resume</h1>
         <p className="text-stone-400">Updated on 20/09/2025</p>
-        {/* <a href="https://github.com/RajKishan1" target="_blank" className="">
-          <img
-            src="https://ghchart.rshah.org/RajKishan1"
-            className="pr-0 lg:pr-20 w-full"
-          />
-        </a> */}
+        <div className="flex gap-2 ">
+          <a
+            href="/about/resume"
+            className="px-5 py-2 bg-gradient-to-br from-black to-blue-900 rounded-xl border border-stone-600"
+          >
+            View
+          </a>
+          <a
+            href="/resume.pdf"
+            download={"resume.pdf"}
+            className="px-5 py-2 bg-gradient-to-br from-black to-blue-900 rounded-xl border border-stone-600"
+          >
+            Download
+          </a>
+        </div>
       </div>
     </div>
   );

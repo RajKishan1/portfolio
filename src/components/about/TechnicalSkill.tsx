@@ -16,7 +16,7 @@ const Item = ({ techName }: { techName: string }) => {
   return <div>{techName}</div>;
 };
 const Class =
-  "px-2.5 py-1 flex gap-1.5 items-center border border-stone-700 rounded-lg text-sm";
+  "px-2.5 py-1 flex flex-row-reverse gap-1.5 items-center border border-stone-700 rounded-lg text-sm hover:scale-105 transition-all duration-200 hover:rounded-xl";
 const TechnicalSkill = () => {
   return (
     <div id="skill" className="">
