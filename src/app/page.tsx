@@ -13,16 +13,16 @@ const page = () => {
         <HomeProjectSection
           liveLink="/"
           image="/me.png"
-          projectDetail="."
-          projectTitle="."
+          projectDetail="An AI Captions and Hashtags generator which provides interactive and engaging Captions for your Social media posts to grow your reach and engagement."
+          projectTitle="Building #CapTag (Captions and Hashtags)"
         />
       </BlurFade>
       <LatestBlog />
       <HomeProjectSection
         liveLink="https://demodesign-gsk2.vercel.app/"
         image="/dvhomepage.png"
-        projectDetail="."
-        projectTitle="."
+        projectTitle="Full Stack Intern at DataVidhya"
+        projectDetail="Developed the complete website where I worked at Frontend and Backend both using NextJs with Prisma and Postgres."
       />
       <ContactSection />
     </div>
