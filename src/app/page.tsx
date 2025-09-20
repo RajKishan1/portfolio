@@ -11,18 +11,18 @@ const page = () => {
       <BlurFade direction="right" duration={2}>
         <HeroSection />
         <HomeProjectSection
-          liveLink=""
+          liveLink="/"
           image="/me.png"
-          projectDetail=""
-          projectTitle=""
+          projectDetail="."
+          projectTitle="."
         />
       </BlurFade>
       <LatestBlog />
       <HomeProjectSection
         liveLink="https://demodesign-gsk2.vercel.app/"
         image="/dvhomepage.png"
-        projectDetail=""
-        projectTitle=""
+        projectDetail="."
+        projectTitle="."
       />
       <ContactSection />
     </div>

@@ -4,7 +4,7 @@ interface prop {
   projectTitle: string;
   projectDetail: string;
   image: string;
-  liveLink?: string;
+  liveLink: string;
 }
 const HomeProjectSection = ({
   liveLink,
@@ -15,7 +15,6 @@ const HomeProjectSection = ({
   return (
     <div className="flex flex-col gap-3 py-5">
       <div className="w-full rounded-2xl overflow-hidden border border-neutral-600 ">
-        <div></div>
         <img
           src={image}
           alt="Project Image"
@@ -30,7 +29,7 @@ const HomeProjectSection = ({
         </div>
         <div className="flex flex-col gap-2  ">
           <p className="text-[16px] leading-[20px] font-normal text-stone-700 dark:text-[#b2b2b2] text-left">
-            {projectDetail}Development of a flexible and highly customizable
+            {projectDetail} Development of a flexible and highly customizable
             design system using Next.js for front-end and Figma for design
             collaboration.
           </p>
