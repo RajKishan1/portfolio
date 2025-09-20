@@ -76,6 +76,19 @@ const AboutDetail = () => {
           />
         </a>
       </div>
+      <div
+        id="resume"
+        className="flex flex-col gap-5 mt-20 w-full max-sm:pr-0 md:pr-6 lg:pr-12 "
+      >
+        <h1 className="text-4xl font-bold ">Resume</h1>
+        <p className="text-stone-400">Updated on 20/09/2025</p>
+        {/* <a href="https://github.com/RajKishan1" target="_blank" className="">
+          <img
+            src="https://ghchart.rshah.org/RajKishan1"
+            className="pr-0 lg:pr-20 w-full"
+          />
+        </a> */}
+      </div>
     </div>
   );
 };

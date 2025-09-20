@@ -6,6 +6,8 @@ import { GiBookCover } from "react-icons/gi";
 import { RiToolsFill } from "react-icons/ri";
 import { LuFileUser } from "react-icons/lu";
 import { IoLogoGithub } from "react-icons/io";
+import { TbFileCv } from "react-icons/tb";
+import { SiReaddotcv } from "react-icons/si";
 
 interface prop {
   text: string;
@@ -38,6 +40,10 @@ const page = () => {
             <IoLogoGithub />
             <Title text="Github Stats" />
           </a>
+          <a href="#resume" className={Class}>
+          <SiReaddotcv />
+            <Title text="Resume" />
+          </a>
         </div>
       </div>
       <div className="w-full md:w-1/4 lg:w-1/5 md:sticky top-30 pt-1 md:pt-10 lg:border-l border-stone-300 dark:border-stone-800">
@@ -49,7 +55,7 @@ const page = () => {
           />
           <span className="flex items-center gap-2 ">
             <FaEarthAsia />
-            India / Asia  
+            India / Asia
           </span>
           <span className="flex gap-2">
             <div className="py-1 px-2.5 rounded-lg border-[1px] border-neutral-700  text-sm ">
